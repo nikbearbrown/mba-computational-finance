@@ -1,0 +1,38 @@
+---
+title: "Computational Finance with AI"
+subtitle: "Hands-On Finance for MBAs in the Age of AI"
+author:
+  - Nik Bear Brown
+date: 2026
+lang: en-US
+description: |
+  A working introduction to MBA-level computational finance taught with
+  conversational AI as the primary instrument — present value, securities
+  valuation, portfolio construction, asset pricing, financial-statement
+  analysis — explicitly without Excel, on the argument that the spreadsheet
+  was a workaround for the absence of better tools and the workaround is no
+  longer needed. Built around the three-beat method (idea → execute →
+  verify) and Maya's Memo, an integrated investment recommendation that the
+  reader builds across thirteen chapters.
+rights: © 2026 Nik Bear Brown. All rights reserved.
+publisher: Bear Brown LLC
+subject:
+  - Finance — Practical
+  - Investment Analysis
+  - MBA Education
+  - AI for Finance
+keywords:
+  - computational finance
+  - DCF
+  - CAPM
+  - portfolio construction
+  - efficient frontier
+  - Sharpe ratio
+  - Maya's Memo
+  - the three-beat method
+  - Black-Scholes
+  - financial statements
+ibooks:
+  version: 1.0.0
+toc-title: Contents
+...

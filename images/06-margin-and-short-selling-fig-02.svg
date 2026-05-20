@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Short-sale mechanics — four parties, two flows</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Shares move one way; cash and borrow fees move the other. The short seller owes the broker the shares back.</text>
+<rect x="44" y="172" width="112" height="56" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="100" y="194" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">LENDER</text>
+<text x="100" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Original shareholder</text>
+<rect x="224" y="172" width="112" height="56" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="280" y="194" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">BROKER</text>
+<text x="280" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Intermediary</text>
+<rect x="404" y="172" width="112" height="56" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="460" y="194" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">SHORT SELLER</text>
+<text x="460" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Borrows + sells</text>
+<rect x="564" y="172" width="112" height="56" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="620" y="194" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">BUYER</text>
+<text x="620" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Pays cash for shares</text>
+<path d="M156 180 L224 180" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="190.0" y="174" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">shares</text>
+<path d="M336 180 L404 180" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="370.0" y="174" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">shares</text>
+<path d="M516 180 L564 180" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="540.0" y="174" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">shares</text>
+<path d="M564 240 L516 240" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 3"/>
+<text x="540.0" y="256" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">cash from sale</text>
+<path d="M404 280 L336 280" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 3"/>
+<text x="370.0" y="296" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">collateral held</text>
+<path d="M460 314 Q460 360 280 314" stroke="#1a1714" stroke-width="1" fill="none" marker-end="url(#arrow)"/>
+<text x="370.0" y="368" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">borrow fee (pays per day until covered)</text>
+<text x="350.0" y="400" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">The shares are owed back. The mechanism is a loan in shares, not a sale of cash.</text>
+</svg>

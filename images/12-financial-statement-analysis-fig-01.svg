@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Three statements, one system</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Pull one thread and the others move. Net income → cash flow → balance sheet retained earnings.</text>
+<rect x="-24" y="160" width="160" height="120" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="56" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">INCOME STATEMENT</text>
+<text x="56" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Revenue → Net Income</text>
+<text x="56" y="224" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">over the period</text>
+<rect x="200" y="160" width="160" height="120" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="280" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">CASH FLOW STATEMENT</text>
+<text x="280" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Net Income → adjustments</text>
+<text x="280" y="224" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">→ ending cash</text>
+<rect x="424" y="160" width="160" height="120" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="504" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">BALANCE SHEET</text>
+<text x="504" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Assets, liabilities, equity</text>
+<text x="504" y="224" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">at a moment in time</text>
+<path d="M136 200 L200 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="168.0" y="194" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">net income</text>
+<path d="M360 200 L424 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="392.0" y="194" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">ending cash</text>
+<path d="M56 160 Q280 80 504 160" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+<text x="280" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">retained earnings = prior + net income − dividends</text>
+<text x="350.0" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">The three statements answer three different questions, but they share line items by construction. Reading any one alone misses the system.</text>
+</svg>

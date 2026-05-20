@@ -1,0 +1,23 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="360" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Compounding and discounting are one operation, run in opposite directions</text>
+<line x1="80" y1="200" x2="620" y2="200" stroke="#1a1714" stroke-width="2"/>
+<circle cx="120" cy="200" r="10" fill="#1a1714"/>
+<text x="120" y="234" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Today</text>
+<text x="120" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">PV</text>
+<circle cx="580" cy="200" r="10" fill="#1a1714"/>
+<text x="580" y="234" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Year n</text>
+<text x="580" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">FV</text>
+<path d="M150 170 Q350 110 550 170" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="350" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Compounding</text>
+<text x="350" y="126" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">multiply by $(1+r)^n$</text>
+<path d="M550 230 Q350 290 150 230" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="350" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Discounting</text>
+<text x="350" y="316" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">divide by $(1+r)^n$</text>
+<text x="350.0" y="328" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">The same factor in two directions. The discount rate is where the entire decision lives.</text>
+</svg>

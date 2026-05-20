@@ -1,0 +1,62 @@
+[WARNING] Could not fetch resource 'images/lillian-gilbreth.jpg': PandocResourceNotFound "images/lillian-gilbreth.jpg"
+[WARNING] Could not fetch resource 'images/louis-bachelier.jpg': PandocResourceNotFound "images/louis-bachelier.jpg"
+[WARNING] Could not fetch resource 'images/frederick-macaulay.jpg': PandocResourceNotFound "images/frederick-macaulay.jpg"
+[WARNING] Could not fetch resource 'images/sylvia-porter.jpg': PandocResourceNotFound "images/sylvia-porter.jpg"
+[WARNING] Could not fetch resource 'images/john-burr-williams.jpg': PandocResourceNotFound "images/john-burr-williams.jpg"
+[WARNING] Could not fetch resource 'images/hyman-minsky.jpg': PandocResourceNotFound "images/hyman-minsky.jpg"
+[WARNING] Could not fetch resource 'images/vinzenz-bronzin.jpg': PandocResourceNotFound "images/vinzenz-bronzin.jpg"
+[WARNING] Could not fetch resource 'images/a-d-roy.jpg': PandocResourceNotFound "images/a-d-roy.jpg"
+[WARNING] Could not fetch resource 'images/james-tobin.jpg': PandocResourceNotFound "images/james-tobin.jpg"
+[WARNING] Could not fetch resource 'images/john-larry-kelly-jr.jpg': PandocResourceNotFound "images/john-larry-kelly-jr.jpg"
+[WARNING] Could not fetch resource 'images/john-lintner.jpg': PandocResourceNotFound "images/john-lintner.jpg"
+[WARNING] Could not fetch resource 'images/luca-pacioli.jpg': PandocResourceNotFound "images/luca-pacioli.jpg"
+[WARNING] Could not fetch resource 'images/hetty-green.jpg': PandocResourceNotFound "images/hetty-green.jpg"
+[WARNING] Could not convert TeX math 'R_{\text{simple}} = \frac{P_{\text{end}} - P_{\text{start}}}{P_{\text{start}}}', rendering as TeX
+[WARNING] Could not convert TeX math 'R_{\text{log}} = \ln\!\left(\frac{P_{\text{end}}}{P_{\text{start}}}\right) = \ln(1.78) \approx 57.7\%', rendering as TeX
+[WARNING] Could not convert TeX math 'R_{\text{total}} = \sum_{i=1}^{n} r_i', rendering as TeX
+[WARNING] Could not convert TeX math '\prod_{i=1}^{n}(1 + R_i) - 1', rendering as TeX
+[WARNING] Could not convert TeX math '\sigma^2 = \frac{1}{n-1}\sum_{i=1}^{n}(r_i - \bar{r})^2', rendering as TeX
+[WARNING] Could not convert TeX math '\sigma = \sqrt{\sigma^2}', rendering as TeX
+[WARNING] Could not convert TeX math '\sigma_{\text{annual}} = \sqrt{252} \cdot \sigma_{\text{daily}} \approx 15.87 \cdot \sigma_{\text{daily}}', rendering as TeX
+[WARNING] Could not convert TeX math '\sqrt{252}', rendering as TeX
+[WARNING] Could not convert TeX math '\sqrt{n}', rendering as TeX
+[WARNING] Could not convert TeX math '\sqrt{252}', rendering as TeX
+[WARNING] Could not convert TeX math 'S = \frac{R_p - R_f}{\sigma_p}', rendering as TeX
+[WARNING] Could not convert TeX math '\sqrt{252}', rendering as TeX
+[WARNING] Could not convert TeX math '\sqrt{252}', rendering as TeX
+[WARNING] Could not convert TeX math '\sqrt{252}', rendering as TeX
+[WARNING] Could not convert TeX math 'P = \frac{D_1}{r - g}', rendering as TeX
+[WARNING] Could not convert TeX math 'P = \frac{4.00}{0.08 - 0.04} = \frac{4.00}{0.04} = \$100', rendering as TeX
+[WARNING] Could not convert TeX math 'P = \frac{4.00}{0.08 - 0.05} = \frac{4.00}{0.03} = \$133', rendering as TeX
+[WARNING] Could not convert TeX math 'P = \sum_{t=1}^{n} \frac{C}{(1+r)^t} + \frac{F}{(1+r)^n}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Current yield} = \frac{\text{Annual coupon dollars}}{\text{Current price}}', rendering as TeX
+[WARNING] Could not convert TeX math 'PV_{\text{coupons}} = 14.75 \times \frac{1 - (1.025)^{-47}}{0.025} \approx 14.75 \times 27.20 \approx \$401', rendering as TeX
+[WARNING] Could not convert TeX math 'PV_{\text{face}} = \frac{1{,}000}{(1.025)^{47}} \approx \$306', rendering as TeX
+[WARNING] Could not convert TeX math 'R_p = \frac{1}{N} \sum_{i=1}^{N} R_i', rendering as TeX
+[WARNING] Could not convert TeX math 'E[R_p] = \frac{1}{N} \sum_{i=1}^{N} E[R_i] = \frac{1}{N} \cdot N \cdot \mu = \mu', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Var}(R_p) = \text{Var}\!\left(\frac{1}{N}\sum_{i=1}^{N} R_i\right) = \frac{1}{N^2} \cdot N\sigma^2 = \frac{\sigma^2}{N}', rendering as TeX
+[WARNING] Could not convert TeX math '\sigma / \sqrt{N}', rendering as TeX
+[WARNING] Could not convert TeX math '\sigma/\sqrt{N}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Var}(R_p) = \underbrace{\frac{\sigma^2}{N}}_{\text{shrinks to zero}} + \underbrace{\left(1 - \frac{1}{N}\right)\rho\sigma^2}_{\text{converges to } \rho\sigma^2}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Fee Cost Fraction} = 1 - \left(\frac{1+g-e}{1+g}\right)^T', rendering as TeX
+[WARNING] Could not convert TeX math '\sigma/\sqrt{N}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{PV} = \frac{\text{FV}}{(1+r)^n}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{NPV} = \sum_{t=0}^{n} \frac{\text{CF}_t}{(1+r)^t}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{PV} = \frac{C}{1+r} + \frac{C}{(1+r)^2} + \frac{C}{(1+r)^3} + \ldots', rendering as TeX
+[WARNING] Could not convert TeX math '\text{PV} = \frac{a}{1-q} = \frac{C/(1+r)}{1 - 1/(1+r)} = \frac{C/(1+r)}{r/(1+r)} = \frac{C}{r}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{PV} = \frac{C}{r - g}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Margin \%} = \frac{\text{equity}}{\text{position value}}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Margin call price} = \frac{\text{loan}}{\text{shares} \times (1 - \text{maintenance margin})}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Margin call price} = \frac{\$5{,}000}{100 \times (1 - 0.30)} = \frac{\$5{,}000}{70} = \$71.43', rendering as TeX
+[WARNING] Could not convert TeX math '\frac{\$55{,}500 - 100 \cdot P}{100 \cdot P} = 0.30', rendering as TeX
+[WARNING] Could not convert TeX math '\$55{,}500 - 100P = 30P \implies P = \frac{\$55{,}500}{130} = \$426.92', rendering as TeX
+[WARNING] Could not convert TeX math 'd_1 = \frac{\ln(S/K) + \bigl(r + \frac{1}{2}\sigma^2\bigr)T}{\sigma\sqrt{T}}, \qquad d_2 = d_1 - \sigma\sqrt{T}', rendering as TeX
+[WARNING] Could not convert TeX math '0.25\sqrt{0.5} \approx 0.1768', rendering as TeX
+[WARNING] Could not convert TeX math '\sqrt{450} \approx 21\%', rendering as TeX
+[WARNING] Could not convert TeX math 'S = \frac{E(R) - r_f}{\sigma}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{slope} = \frac{E(R_{\text{risky}}) - R_f}{\sigma_{\text{risky}}} = \frac{7\% - 4.5\%}{9.5\%} \approx 0.26', rendering as TeX
+[WARNING] Could not convert TeX math 'U = E(R_p) - \frac{1}{2} A \sigma_p^2', rendering as TeX
+[WARNING] Could not convert TeX math 'U(y) = \left[R_f + y(E(R_{\text{risky}}) - R_f)\right] - \frac{1}{2} A (y \cdot \sigma_{\text{risky}})^2', rendering as TeX
+[WARNING] Could not convert TeX math '\frac{dU}{dy} = (E(R_{\text{risky}}) - R_f) - A y \sigma_{\text{risky}}^2 = 0', rendering as TeX
+[WARNING] Could not convert TeX math 'y^* = \frac{E(R_{\text{risky}}) - R_f}{A \cdot \sigma_{\text{risky}}^2}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{ROE} = \frac{\text{Net Income}}{\text{Revenue}} \times \frac{\text{Revenue}}{\text{Assets}} \times \frac{\text{Assets}}{\text{Equity}}', rendering as TeX

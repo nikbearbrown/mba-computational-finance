@@ -1,0 +1,47 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">The Authorized Participant arbitrage loop</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Why ETF prices stay tight to NAV — the AP makes risk-free profit by closing any gap.</text>
+<rect x="56" y="80" width="272" height="300" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="72" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.2">ETF ABOVE NAV</text>
+<line x1="72" y1="108" x2="312" y2="108" stroke="#8a8480" stroke-width="0.75"/>
+<circle cx="86" cy="133" r="11" fill="#1a1714"/>
+<text x="86" y="137" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">1</text>
+<text x="106" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">AP buys basket at $99</text>
+<circle cx="86" cy="175" r="11" fill="#1a1714"/>
+<text x="86" y="179" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">2</text>
+<text x="106" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">AP delivers basket → fund</text>
+<circle cx="86" cy="217" r="11" fill="#1a1714"/>
+<text x="86" y="221" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">3</text>
+<text x="106" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Fund issues new ETF shares</text>
+<circle cx="86" cy="259" r="11" fill="#1a1714"/>
+<text x="86" y="263" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">4</text>
+<text x="106" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">AP sells ETF on exchange at $100</text>
+<circle cx="86" cy="301" r="11" fill="#1a1714"/>
+<text x="86" y="305" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">5</text>
+<text x="106" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">$1 risk-free profit</text>
+<rect x="372" y="80" width="272" height="300" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="388" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.2">ETF BELOW NAV</text>
+<line x1="388" y1="108" x2="628" y2="108" stroke="#8a8480" stroke-width="0.75"/>
+<circle cx="402" cy="133" r="11" fill="#1a1714"/>
+<text x="402" y="137" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">1</text>
+<text x="422" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">AP buys ETF cheap on exchange at $99</text>
+<circle cx="402" cy="175" r="11" fill="#1a1714"/>
+<text x="402" y="179" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">2</text>
+<text x="422" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">AP redeems ETF → fund</text>
+<circle cx="402" cy="217" r="11" fill="#1a1714"/>
+<text x="402" y="221" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">3</text>
+<text x="422" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Fund delivers basket worth $100</text>
+<circle cx="402" cy="259" r="11" fill="#1a1714"/>
+<text x="402" y="263" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">4</text>
+<text x="422" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">AP sells basket at $100</text>
+<circle cx="402" cy="301" r="11" fill="#1a1714"/>
+<text x="402" y="305" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">5</text>
+<text x="422" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">$1 risk-free profit</text>
+<text x="350.0" y="408" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Each gap is closed by the AP&#8217;s arbitrage — the ETF tracks NAV almost perfectly, regardless of whether anyone is paying attention.</text>
+</svg>
