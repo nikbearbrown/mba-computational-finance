@@ -2,7 +2,7 @@
 
 *Per-book metadata. Read by `/chapter`, `/bookmap`, `/mega`, `/essay` every run.*
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 
 **Folder:** `books/computational-finance-with-ai/`
 

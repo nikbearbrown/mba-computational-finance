@@ -103,7 +103,8 @@ For Microsoft, gross margin has been stable to slightly rising over five years, 
 
 The trend tells a different story than the level. A company at 25% gross margin that has been at 24%, 24.5%, 24.8%, 25% is in a better position than one at 28% that has been at 33%, 32%, 30%, 28%. The absolute number favors the second company; the direction of travel favors the first. You need both.
 
-<!-- → [CHART: Five-year gross margin trend lines for MSFT, AAPL, and GOOGL on the same axes — x-axis is year, y-axis is gross margin percentage. Three lines, different colors. MSFT line is stable/slightly rising near 70%. AAPL line starts lower (~38%) and trends upward toward 45%. GOOGL line is more volatile, compressing in investment-heavy years. Student should see that the absolute levels matter less than the direction and stability of each line.] -->
+![Five-year gross margin trend lines for MSFT, AAPL,](images/12-financial-statement-analysis-fig-01.png)
+*Figure 12.1 — Five-year gross margin trend lines for MSFT, AAPL,*
 
 ---
 
@@ -260,3 +261,20 @@ Who was Luca Pacioli, and how does his 1494 publication of double-entry bookkeep
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 12.1 — Five-year gross margin trend lines for MSFT, AAPL,
+
+Create a standalone D3 v7 HTML file for Figure Five-year gross margin trend lines for MSFT, AAPL,. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Five-year gross margin trend lines for MSFT, AAPL, and GOOGL on the same axes — x-axis is year, y-axis is gross margin percentage. Three lines, different colors. MSFT line is stable/slightly rising near 70%. AAPL line starts lower (~38%) and trends upward toward 45%. GOOGL line is more volatile, compressing in investment-heavy years. Student should see that the absolute levels matter less than the direction and stability of each line.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/12-financial-statement-analysis-fig-01.html`

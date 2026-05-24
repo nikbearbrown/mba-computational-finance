@@ -33,7 +33,8 @@ $$\text{Var}(R_p) = \text{Var}\!\left(\frac{1}{N}\sum_{i=1}^{N} R_i\right) = \fr
 
 Portfolio variance is the individual variance divided by $N$. Portfolio volatility is $\sigma / \sqrt{N}$.
 
-<!-- → [CHART: Volatility reduction curve — x-axis: number of holdings (1 to 100), y-axis: portfolio volatility as fraction of single-asset volatility; show 1/√N decay curve, mark the 4-asset (½ volatility) and 100-asset (1/10 volatility) points explicitly; student should see the curve flattens quickly — most of the benefit comes from the first 20–30 holdings] -->
+![Volatility reduction curve ](images/04-funds-and-etfs-fig-01.png)
+*Figure 4.1 — Volatility reduction curve *
 
 That is the entire argument. Same expected return; volatility shrinks as one over the square root of the number of assets. Hold 4 independent assets and your volatility is halved. Hold 100 and it is one-tenth of any individual asset's volatility. The expected return has not moved.
 
@@ -45,7 +46,8 @@ $$\text{Var}(R_p) = \underbrace{\frac{\sigma^2}{N}}_{\text{shrinks to zero}} + \
 
 As $N$ grows large, the first term vanishes and the second term approaches $\rho\sigma^2$. There is a floor. You cannot diversify below the average pairwise correlation times the variance. That residual is systematic risk — the risk that comes from forces affecting many assets simultaneously. The piece that does diversify away is idiosyncratic risk — the piece specific to each individual asset.
 
-<!-- → [INFOGRAPHIC: Two-part decomposition of portfolio risk — show total risk splitting into idiosyncratic (eliminated by diversification, shaded, shrinks to zero as N grows) and systematic (irreducible floor at ρσ², solid) as N increases; annotate the floor explicitly with the ρσ² label] -->
+![Two-part decomposition of portfolio risk ](images/04-funds-and-etfs-fig-02.png)
+*Figure 4.2 — Two-part decomposition of portfolio risk *
 
 This distinction is worth holding precisely. Diversification eliminates the idiosyncratic piece. It does not touch the systematic piece. When the entire equity market falls, a hundred-stock portfolio falls with it. What diversification protects you against is the catastrophe specific to one company — the bankruptcy, the fraud, the product recall that wipes out one name while the rest of the world continues.
 
@@ -131,7 +133,8 @@ What the formula reveals is that the cost of fees grows with horizon but at a de
 | 20 years | \$38,330 | \$32,030 | \$6,300 | 16.4% |
 | 35 years | \$103,900 | \$76,900 | \$27,000 | 26.0% |
 
-<!-- → [CHART: Compounding fee drag over time — two lines on same axes, x-axis: years (0–35), y-axis: portfolio value ($); low-fee line reaches ~$103,900, high-fee line reaches ~$76,900; shade the gap between them and label it "$27,000 — the cost of 0.95% per year over 35 years"; student should see the gap widens nonlinearly] -->
+![Compounding fee drag over time ](images/04-funds-and-etfs-fig-03.png)
+*Figure 4.3 — Compounding fee drag over time *
 
 Over five years, the fee is nearly invisible. Over thirty-five years, it has consumed more than a quarter of the outcome.
 
@@ -327,3 +330,36 @@ Who was Sylvia Porter, and how does her decades of personal-finance journalism �
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 4.1 — Volatility reduction curve 
+
+Create a standalone D3 v7 HTML file for Figure Volatility reduction curve . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Volatility reduction curve — x-axis: number of holdings (1 to 100), y-axis: portfolio volatility as fraction of single-asset volatility; show 1/√N decay curve, mark the 4-asset (½ volatility) and 100-asset (1/10 volatility) points explicitly; student should see the curve flattens quickly — most of the benefit comes from the first 20–30 holdings. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-funds-and-etfs-fig-01.html`
+
+---
+
+### Figure 4.2 — Two-part decomposition of portfolio risk 
+
+Create a standalone D3 v7 HTML file for Figure Two-part decomposition of portfolio risk . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two-part decomposition of portfolio risk — show total risk splitting into idiosyncratic (eliminated by diversification, shaded, shrinks to zero as N grows) and systematic (irreducible floor at ρσ², solid) as N increases; annotate the floor explicitly with the ρσ² label. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-funds-and-etfs-fig-02.html`
+
+---
+
+### Figure 4.3 — Compounding fee drag over time 
+
+Create a standalone D3 v7 HTML file for Figure Compounding fee drag over time . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Compounding fee drag over time — two lines on same axes, x-axis: years (0–35), y-axis: portfolio value ($); low-fee line reaches ~$103,900, high-fee line reaches ~$76,900; shade the gap between them and label it "$27,000 — the cost of 0.95% per year over 35 years"; student should see the gap widens nonlinearly. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-funds-and-etfs-fig-03.html`

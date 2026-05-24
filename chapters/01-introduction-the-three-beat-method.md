@@ -88,7 +88,8 @@ Back-of-envelope: if NVDA roughly quadrupled over three years — which is in th
 
 The gap between 78% and 59% is about 19 percentage points. Is there a mechanism that explains this? Yes. The 78% is almost certainly the *arithmetic average* of annualized returns, not the geometric compound return. For a volatile asset, these two numbers diverge substantially — the gap is approximately $\sigma^2 / 2$, where $\sigma$ is the annualized volatility. With $\sigma = 0.52$, the gap is roughly $0.52^2 / 2 \approx 0.135$, or 13.5 percentage points. Check: geometric return ≈ 78% − 13.5% ≈ 64.5%. Close to our 59% estimate, and the remaining gap is explained by the fact that NVDA's trajectory wasn't smooth — it experienced periods of much more than 4× before the drawdown brought it back down.
 
-<!-- → [INFOGRAPHIC: Arithmetic vs. geometric return divergence — show two hypothetical paths with identical start/end points but different volatility; label arithmetic mean, geometric mean, and variance drag (σ²/2) on each; headline: "Same endpoint, different story depending on how you annualize"] -->
+![Arithmetic vs](images/01-introduction-the-three-beat-method-fig-01.png)
+*Figure 1.1 — Arithmetic vs*
 
 The 78% is not wrong. It is using a convention — arithmetic rather than geometric annualization — that the table doesn't name. This matters because if the CIO is mentally comparing NVDA's 78% to SPY's geometric return from somewhere else, the comparison is broken. Maya flags this in her notes and will specify it explicitly in the memo.
 
@@ -172,7 +173,8 @@ The old substrate for finance analysis was the spreadsheet. Excel, for forty yea
 
 The conversational substrate removes those constraints. The model explains its own logic. It produces finished-looking outputs that don't have a formula bar you can click. It doesn't show you a named range; it shows you prose. And prose triggers a different cognitive mode than formulas do. You read prose the way you read a book. You do not audit prose the way you audit a spreadsheet.
 
-<!-- → [INFOGRAPHIC: Two-column comparison — "Spreadsheet era" vs. "Conversational AI era"; map each Beat to the spreadsheet discipline it replaces: Named ranges → Specification, Formula trace → Editorial read, Scenario tab → Independent verification; visual metaphor: the old guardrails are gone, the new ones are habits] -->
+![Two-column comparison ](images/01-introduction-the-three-beat-method-fig-02.png)
+*Figure 1.2 — Two-column comparison *
 
 What the three-beat method does is reimpose the discipline that the substrate no longer enforces automatically. Beat 1 — the specification — is what the named range used to do: make the assumption explicit, visible, challengeable. Beat 2 — reading like an editor — is what the formula trace used to do: verify that the computation did what you think it did. Beat 3 — verification by independent means — is what the scenario tab used to do: confirm the answer makes sense against an independent reference.
 
@@ -307,3 +309,28 @@ Who was Lillian Gilbreth, and how does her industrial-engineering practice of br
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 1.1 — Arithmetic vs
+
+Create a standalone D3 v7 HTML file for Figure Arithmetic vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Arithmetic vs. geometric return divergence — show two hypothetical paths with identical start/end points but different volatility; label arithmetic mean, geometric mean, and variance drag (σ²/2) on each; headline: "Same endpoint, different story depending on how you annualize". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-introduction-the-three-beat-method-fig-01.html`
+
+---
+
+### Figure 1.2 — Two-column comparison 
+
+Create a standalone D3 v7 HTML file for Figure Two-column comparison . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two-column comparison — "Spreadsheet era" vs. "Conversational AI era"; map each Beat to the spreadsheet discipline it replaces: Named ranges → Specification, Formula trace → Editorial read, Scenario tab → Independent verification; visual metaphor: the old guardrails are gone, the new ones are habits. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-introduction-the-three-beat-method-fig-02.html`

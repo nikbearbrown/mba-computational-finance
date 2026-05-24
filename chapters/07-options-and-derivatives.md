@@ -29,7 +29,8 @@ Notice the asymmetry. This is the whole thing. You have the *right* to sell; the
 
 Watch what happens to your payoff at expiration as a function of the stock's price. If the stock is at $200 and your strike is $170, you don't exercise — you would be selling at $170 something the market will buy at $200. You let the contract expire worthless. Your payoff from the put: zero. If the stock is at $130 and your strike is $170, you do exercise — buy shares in the market at $130, sell them to the contract writer at $170, pocket $40 per share. More generally, the payoff is $\max(K - S, 0)$ per share, where $K$ is the strike and $S$ is the stock price at expiration.
 
-<!-- → [CHART: Payoff diagrams — three panels on one axis; panel 1: long stock (straight line, slope 1); panel 2: put option payoff — flat at zero above strike K, rising linearly below K (hockey stick pointing upper-left); panel 3: long stock plus long put combined — slope-1 line above K, flat floor below K; label the kink at K in all three panels; caption: "The put introduces a kink that cannot be constructed from straight lines alone"] -->
+![The put introduces a kink that cannot be constructed from straight lines alone](images/07-options-and-derivatives-fig-01.png)
+*Figure 7.1 — Payoff diagrams *
 
 Plot this. Above the strike, the payoff is flat at zero. Below the strike, the payoff rises linearly as the stock falls. There is a kink at the strike. The graph looks like a hockey stick lying on its side. And here is the key observation: you cannot make a hockey stick out of straight lines. No matter how you combine long and short positions in the stock itself, you will always get a straight line. The kink is genuinely new. It lives in a different mathematical family from everything you can do by simply owning or shorting the stock.
 
@@ -298,3 +299,20 @@ Who was Vinzenz Bronzin, and how does his 1908 *Theorie der Prämiengeschäfte* 
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 7.1 — Payoff diagrams 
+
+Create a standalone D3 v7 HTML file for Figure Payoff diagrams . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Payoff diagrams — three panels on one axis; panel 1: long stock (straight line, slope 1); panel 2: put option payoff — flat at zero above strike K, rising linearly below K (hockey stick pointing upper-left); panel 3: long stock plus long put combined — slope-1 line above K, flat floor below K; label the kink at K in all three panels; caption: "The put introduces a kink that cannot be constructed from straight lines alone". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-options-and-derivatives-fig-01.html`

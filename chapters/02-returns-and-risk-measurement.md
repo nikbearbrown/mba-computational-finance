@@ -54,7 +54,8 @@ Now back to the magic trick, which we can understand properly.
 
 The 50%-up / 50%-down result isn't a paradox. It's arithmetic: $(1.5)(0.5) = 0.75$. What it reveals is that volatility itself has a cost, even when the average return is zero. The arithmetic average of +50% and −50% is zero. The compounded result is −25%. That gap is called *volatility drag*, and it grows with the level of volatility. Assets that swing wildly must earn a higher arithmetic average just to break even on a compounded basis.
 
-<!-- → [CHART: line chart showing two portfolios over 10 periods — one with zero volatility compounding at the arithmetic mean, one with symmetric ±volatility around the same mean — student should see the compounded path of the volatile portfolio falling below the stable one even though both have the same arithmetic average] -->
+![Line chart showing two portfolios over 10 periods](images/02-returns-and-risk-measurement-fig-01.png)
+*Figure 2.1 — Line chart showing two portfolios over 10 periods*
 
 This is why log returns are the natural language for multi-period compounding. The log of $(1.5 \times 0.5)$ is $\ln(1.5) + \ln(0.5) \approx 0.405 - 0.693 = -0.288$, which corresponds to a simple return of $e^{-0.288} - 1 \approx -25\%$. The log-return arithmetic tells you the truth about the path.
 
@@ -96,7 +97,8 @@ $$\sigma_{\text{annual}} = \sqrt{252} \cdot \sigma_{\text{daily}} \approx 15.87 
 
 A daily volatility of 1% annualizes to about 15.9%, not 252%. The annualizer is $\sqrt{252}$, not $252$.
 
-<!-- → [INFOGRAPHIC: step-by-step diagram of the annualization derivation — daily variance → multiply by 252 → annual variance → take square root → annual standard deviation — with the common mistake (multiplying σ_daily by 252 instead of √252) shown as a branching error path] -->
+![Step-by-step diagram of the annualization derivation ](images/02-returns-and-risk-measurement-fig-02.png)
+*Figure 2.2 — Step-by-step diagram of the annualization derivation *
 
 Why variance and not standard deviation? The variance of a sum of independent variables equals the sum of their variances — that's a fundamental probability fact, following from the independence assumption. Standard deviation is the square root of variance, so when you go from one period to $n$ periods, the standard deviation scales as $\sqrt{n}$. The square root is not a convention. It is a consequence.
 
@@ -126,7 +128,8 @@ The long-run Sharpe ratio of broad US equity markets is roughly 0.4 to 0.6. A su
 
 NVDA's Sharpe over the most recent three-year window comes in at roughly 1.40 (verify against current data). Over the most recent five-year window, it falls to roughly 0.91. The difference is the AI rally of 2023 and 2024 — an 18-month period that was exceptional for NVDA specifically. The three-year Sharpe includes that period entirely; the five-year Sharpe dilutes it with two earlier years of more ordinary performance.
 
-<!-- → [CHART: dual-panel bar chart — left panel shows NVDA vs SPY Sharpe ratios at 3-year and 5-year windows side by side; right panel shows the corresponding annualized return and volatility inputs — student should see how the window choice moves the Sharpe and why] -->
+![Dual-panel bar chart ](images/02-returns-and-risk-measurement-fig-03.png)
+*Figure 2.3 — Dual-panel bar chart *
 
 This window sensitivity is not a flaw in the calculation. It's the calculation telling you something true: NVDA's recent performance was unusually good, and how good it looks depends entirely on where you start the clock. An analyst who presents only the three-year Sharpe without noting the five-year figure is presenting a fact that happens to be flattering rather than a full picture.
 
@@ -295,3 +298,36 @@ Who was Louis Bachelier, and how does his 1900 thesis *Théorie de la Spéculati
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 2.1 — Line chart showing two portfolios over 10 periods
+
+Create a standalone D3 v7 HTML file for Figure Line chart showing two portfolios over 10 periods. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: line chart showing two portfolios over 10 periods — one with zero volatility compounding at the arithmetic mean, one with symmetric ±volatility around the same mean — student should see the compounded path of the volatile portfolio falling below the stable one even though both have the same arithmetic average. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-returns-and-risk-measurement-fig-01.html`
+
+---
+
+### Figure 2.2 — Step-by-step diagram of the annualization derivation 
+
+Create a standalone D3 v7 HTML file for Figure Step-by-step diagram of the annualization derivation . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: step-by-step diagram of the annualization derivation — daily variance → multiply by 252 → annual variance → take square root → annual standard deviation — with the common mistake (multiplying σ_daily by 252 instead of √252) shown as a branching error path. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-returns-and-risk-measurement-fig-02.html`
+
+---
+
+### Figure 2.3 — Dual-panel bar chart 
+
+Create a standalone D3 v7 HTML file for Figure Dual-panel bar chart . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: dual-panel bar chart — left panel shows NVDA vs SPY Sharpe ratios at 3-year and 5-year windows side by side; right panel shows the corresponding annualized return and volatility inputs — student should see how the window choice moves the Sharpe and why. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-returns-and-risk-measurement-fig-03.html`

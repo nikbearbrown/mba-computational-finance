@@ -43,7 +43,8 @@ Read those two formulas side by side. They are the same equation. Compounding mu
 
 Inside the discount rate are three components. The risk-free rate — what you could earn with certainty by lending to the safest available borrower, roughly the short-term Treasury rate. An inflation component — compensation for the loss of purchasing power, already embedded in nominal rates. And a risk premium — compensation for the chance the cash flow does not materialize as expected. The riskier the cash flows, the larger this premium must be. A 12% discount rate on Sara's catering business encodes all three: perhaps 4% risk-free, some embedded inflation, and a substantial premium for the operating risk of a small private business with concentrated customers and a founder who is about to leave.
 
-<!-- → [INFOGRAPHIC: stacked bar decomposing a 12% discount rate into its three components — risk-free rate (~4%), inflation (~2%), risk premium (~6%) — labeled with brief descriptions of what each compensates for] -->
+![Stacked bar decomposing a 12% discount rate into](images/05-time-value-of-money-and-discounted-cash-flows-fig-01.png)
+*Figure 5.1 — Stacked bar decomposing a 12% discount rate into*
 
 ---
 
@@ -123,7 +124,8 @@ The terminal value at the end of year 10: the growing perpetuity formula applied
 
 Discounting all of this back to today: the present value of the ten explicit years of cash flow comes to roughly $1,074,000 [verify]. The present value of the terminal value — $2,150,000 discounted ten years at 12% — comes to roughly $692,000 [verify]. Total enterprise value: approximately $1,766,000 [verify]. Subtract the purchase price of $850,000. NPV: approximately $916,000 [verify]. IRR: roughly 23% [verify].
 
-<!-- → [CHART: stacked bar chart showing the two components of the $1,766,000 enterprise value — present value of 10-year explicit cash flows (~$1,074,000) and present value of terminal value (~$692,000) — student should see how much of the total valuation rests on the terminal value assumption] -->
+![Stacked bar chart showing the two components of](images/05-time-value-of-money-and-discounted-cash-flows-fig-02.png)
+*Figure 5.2 — Stacked bar chart showing the two components of*
 
 The deal looks spectacular. Sara is paying $850,000 for cash flows worth $1,766,000.
 
@@ -324,3 +326,28 @@ Who was John Burr Williams, and how does his 1938 dissertation *The Theory of In
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 5.1 — Stacked bar decomposing a 12% discount rate into
+
+Create a standalone D3 v7 HTML file for Figure Stacked bar decomposing a 12% discount rate into. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: stacked bar decomposing a 12% discount rate into its three components — risk-free rate (~4%), inflation (~2%), risk premium (~6%) — labeled with brief descriptions of what each compensates for. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/05-time-value-of-money-and-discounted-cash-flows-fig-01.html`
+
+---
+
+### Figure 5.2 — Stacked bar chart showing the two components of
+
+Create a standalone D3 v7 HTML file for Figure Stacked bar chart showing the two components of. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: stacked bar chart showing the two components of the $1,766,000 enterprise value — present value of 10-year explicit cash flows (~$1,074,000) and present value of terminal value (~$692,000) — student should see how much of the total valuation rests on the terminal value assumption. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/05-time-value-of-money-and-discounted-cash-flows-fig-02.html`

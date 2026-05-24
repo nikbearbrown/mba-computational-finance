@@ -25,7 +25,8 @@ These are dual formulations of the same problem. They produce the same curve.
 
 To see why a curve emerges, think about what happens in return-volatility space as you trace across all possible portfolios. You can put everything in one asset — that gives you one point. You can mix two assets in various proportions — that gives you a curved arc of points, bulging toward lower volatility than either asset alone when the assets are imperfectly correlated. Add more assets and more arcs intersect; the set of achievable portfolios fills in a lens-shaped region. The left edge of that region — where no portfolio has a lower volatility at the same return, and no portfolio has a higher return at the same volatility — is the efficient frontier.
 
-<!-- → [CHART: Scatter of points in (volatility, return) space representing possible portfolios. Points fill a bullet-shaped region opening to the upper right. The left-and-upper boundary labeled "efficient frontier." Two points marked: leftmost point labeled "minimum-variance portfolio," and the point where a line from the risk-free rate (marked on the return axis) is tangent to the frontier, labeled "maximum-Sharpe portfolio." Individual asset dots scattered in the interior, showing no single asset sits on the frontier — combinations dominate components.] -->
+![Scatter of points in (volatility, return) space representing](images/09-portfolio-construction-fig-01.png)
+*Figure 9.1 — Scatter of points in (volatility, return) space representing*
 
 Two points on the frontier deserve names.
 
@@ -160,7 +161,8 @@ Rebalancing returns the portfolio to its target weights by selling what has appr
 
 This protocol is not complicated. It is also almost never followed spontaneously by investors who are not explicitly committed to it in advance. The portfolio that is built correctly and never rebalanced gradually converges toward a portfolio that is mostly the best-performing asset — which is almost always the riskiest asset — which is almost always the worst thing to be holding heavily in the next drawdown.
 
-<!-- → [CHART: Two line charts side by side, both showing a 65/35 stock-bond portfolio over a 5-year equity bull run. Left chart: rebalanced annually — equity weight stays near 65% throughout. Right chart: never rebalanced — equity weight drifts to 78% by year 5. A shaded region in year 6 represents a 30% equity drawdown; the right-chart portfolio loses significantly more in dollar terms. Student should see drift as a hidden risk accumulation mechanism.] -->
+![Two line charts side by side, both showing](images/09-portfolio-construction-fig-02.png)
+*Figure 9.2 — Two line charts side by side, both showing*
 
 ---
 
@@ -289,3 +291,28 @@ Who was James Tobin, and how does his 1958 *separation theorem* — that the cho
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 9.1 — Scatter of points in (volatility, return) space representing
+
+Create a standalone D3 v7 HTML file for Figure Scatter of points in (volatility, return) space representing. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Scatter of points in (volatility, return) space representing possible portfolios. Points fill a bullet-shaped region opening to the upper right. The left-and-upper boundary labeled "efficient frontier." Two points marked: leftmost point labeled "minimum-variance portfolio," and the point where a line from the risk-free rate (marked on the return axis) is tangent to the frontier, labeled "maximum-Sharpe portfolio." Individual asset dots scattered in the interior, showing no single asset sits on the frontier — combinations dominate components.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-portfolio-construction-fig-01.html`
+
+---
+
+### Figure 9.2 — Two line charts side by side, both showing
+
+Create a standalone D3 v7 HTML file for Figure Two line charts side by side, both showing. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two line charts side by side, both showing a 65/35 stock-bond portfolio over a 5-year equity bull run. Left chart: rebalanced annually — equity weight stays near 65% throughout. Right chart: never rebalanced — equity weight drifts to 78% by year 5. A shaded region in year 6 represents a 30% equity drawdown; the right-chart portfolio loses significantly more in dollar terms. Student should see drift as a hidden risk accumulation mechanism.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-portfolio-construction-fig-02.html`

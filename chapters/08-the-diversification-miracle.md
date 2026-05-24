@@ -30,7 +30,8 @@ They are not the same bet.
 
 The variance of Bet A is $100^2 = 10{,}000$. The variance of Bet B — assuming the two coins are independent — is $50^2 + 50^2 = 5{,}000$. Half. The standard deviation of Bet A is $100$. The standard deviation of Bet B is about $70$. By spreading the same expected payoff across two independent draws, you cut the dispersion of outcomes by 30%. You are no more likely to win on average. You are much less likely to be at the extremes.
 
-<!-- → [CHART: side-by-side bar chart showing the outcome distribution of Bet A (three outcomes: −$100, $0 implied by symmetry, +$100) vs. Bet B (four outcomes: −$100, −$0, +$0, +$100 with middle outcomes more probable) — student should see that Bet B concentrates probability mass toward the center] -->
+![Bar chart showing the outcome distribution of Bet](images/08-the-diversification-miracle-fig-01.png)
+*Figure 8.1 — Bar chart showing the outcome distribution of Bet*
 
 This is diversification in its cleanest form. Two coins, identical expected payoffs, no correlation between them. The variance of the average is less than the average of the variances. That sentence is the entire core idea of this chapter. The rest is working out what it means when the coins are stocks.
 
@@ -96,7 +97,8 @@ $$\sigma_p^2 = 0.25(900) + 0.25(900) + 2(0.5)(0.5)(-1)(30)(30) = 225 + 225 - 450
 
 Volatility: zero. Expected return still 10%.
 
-<!-- → [CHART: line chart with correlation ρ on the x-axis (−1 to +1) and portfolio volatility on the y-axis — a single curve showing how σ_p falls as ρ decreases from 1 to −1, with the three computed points (ρ=+1: 30%, ρ=0: 21%, ρ=−1: 0%) marked — student should see the nonlinear shape and where the free lunch lives] -->
+![Line chart with correlation ρ on the x-axis](images/08-the-diversification-miracle-fig-02.png)
+*Figure 8.2 — Line chart with correlation ρ on the x-axis*
 
 Hold this result up to the light. Three portfolios. Same expected return in every case. Volatility ranging from 0% to 30%, depending entirely on one number — the correlation between the two assets. Nothing about the individual assets changed. Only the relationship between them.
 
@@ -108,7 +110,8 @@ The most common misreading of the formula is that the way to reduce portfolio va
 
 There is also a limit to how far single-market diversification takes you. After roughly 20 to 30 stocks within a single equity market [verify against Evans-Archer 1968 and subsequent updates], the marginal benefit of adding more positions becomes negligible. The variance you can eliminate by holding more US stocks is called idiosyncratic or firm-specific risk. The variance you cannot eliminate — no matter how many US stocks you hold — is systematic or market risk: the fact that the whole market moves together in response to economy-wide shocks. To diversify further, you have to leave the asset class: international stocks, bonds, commodities, real assets.
 
-<!-- → [CHART: Evans-Archer style curve — x-axis is number of stocks in a portfolio (1 to 50), y-axis is portfolio volatility — curve starts high for a single stock and asymptotes toward the market volatility floor as positions are added; the gap between the curve and the floor is labeled "idiosyncratic risk (eliminable)"; the floor is labeled "systematic risk (unavoidable)"] -->
+![Evans-Archer style curve ](images/08-the-diversification-miracle-fig-03.png)
+*Figure 8.3 — Evans-Archer style curve *
 
 ---
 
@@ -300,3 +303,36 @@ Who was A. D. Roy, and how does his 1952 *safety-first* portfolio framework — 
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 8.1 — Bar chart showing the outcome distribution of Bet
+
+Create a standalone D3 v7 HTML file for Figure Bar chart showing the outcome distribution of Bet. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: side-by-side bar chart showing the outcome distribution of Bet A (three outcomes: −$100, $0 implied by symmetry, +$100) vs. Bet B (four outcomes: −$100, −$0, +$0, +$100 with middle outcomes more probable) — student should see that Bet B concentrates probability mass toward the center. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-the-diversification-miracle-fig-01.html`
+
+---
+
+### Figure 8.2 — Line chart with correlation ρ on the x-axis
+
+Create a standalone D3 v7 HTML file for Figure Line chart with correlation ρ on the x-axis. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: line chart with correlation ρ on the x-axis (−1 to +1) and portfolio volatility on the y-axis — a single curve showing how σ_p falls as ρ decreases from 1 to −1, with the three computed points (ρ=+1: 30%, ρ=0: 21%, ρ=−1: 0%) marked — student should see the nonlinear shape and where the free lunch lives. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-the-diversification-miracle-fig-02.html`
+
+---
+
+### Figure 8.3 — Evans-Archer style curve 
+
+Create a standalone D3 v7 HTML file for Figure Evans-Archer style curve . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Evans-Archer style curve — x-axis is number of stocks in a portfolio (1 to 50), y-axis is portfolio volatility — curve starts high for a single stock and asymptotes toward the market volatility floor as positions are added; the gap between the curve and the floor is labeled "idiosyncratic risk (eliminable)"; the floor is labeled "systematic risk (unavoidable)". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-the-diversification-miracle-fig-03.html`

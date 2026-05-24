@@ -47,7 +47,8 @@ That line is the Capital Allocation Line. Here is what it looks like for these n
 | 125% (borrow 25%) | 7.6% | 11.9% |
 | 150% (borrow 50%) | 8.3% | 14.3% |
 
-<!-- → [CHART: Capital Allocation Line — horizontal axis: volatility (0% to 16%), vertical axis: expected return (4% to 9%); straight line from (0%, 4.5%) through (9.5%, 7.0%) extending to (14.3%, 8.3%); mark and label the five key points from the table; shade the region above the line as unachievable; label the slope as "Sharpe ratio = 0.26"; student should see that every point on the line has the same risk-reward trade-off] -->
+![Capital Allocation Line ](images/10-capital-allocation-and-diversification-fig-01.png)
+*Figure 10.1 — Capital Allocation Line *
 
 The slope of this line is:
 
@@ -91,7 +92,8 @@ This is the optimal allocation to the risky portfolio. For our numbers — $E(R_
 | 6 (high) | ~46% | Roughly 45/55 stocks/bonds |
 | 10 (very high) | ~28% | Mostly conservative |
 
-<!-- → [CHART: Optimal allocation y* vs. risk aversion A — x-axis: A from 1 to 10, y-axis: y* from 0% to 300%; hyperbolic curve showing y* = 0.025 / (A × 0.009); draw a horizontal dashed line at y*=100% labeled "fully invested" and another at y*=0% labeled "all cash"; shade the leverage zone above 100%; student should see how sensitive the optimal allocation is to small changes in A at low risk aversion] -->
+![Optimal allocation y* vs](images/10-capital-allocation-and-diversification-fig-02.png)
+*Figure 10.2 — Optimal allocation y* vs*
 
 The striking thing about this table isn't any single row. It's the range. Two investors with similar demographics but different risk tolerances might rationally hold portfolios that look completely different — one fully invested with leverage, one holding less than a third in risky assets. This is not a rounding error. This is the whole ballgame.
 
@@ -109,7 +111,8 @@ And labor income, for most salaried workers, behaves like a bond. It pays out re
 
 This means a young person's *total wealth* — financial portfolio plus human capital — is already heavily weighted toward bond-like assets. The financial portfolio, which is all most people think about, represents only a small fraction of total wealth. The financial portfolio can afford to be very heavily in equities precisely to counterbalance the enormous bond-like component sitting in the human capital.
 
-<!-- → [INFOGRAPHIC: Total wealth composition across a career — two stacked bar charts side by side; left bar labeled "Age 28": large segment for human capital (bond-like, ~$2.5M PV), small segment for financial portfolio ($100K); right bar labeled "Age 60": small segment for human capital (~$300K PV), large segment for financial portfolio (~$1.5M); arrows below both bars showing the implied optimal financial portfolio equity allocation (high at 28, moderate at 60); caption: "The financial portfolio should counterbalance human capital — which is why equity allocation rationally declines with age"] -->
+![The financial portfolio should counterbalance human capital — which is why equity allocation rationally declines with age](images/10-capital-allocation-and-diversification-fig-03.png)
+*Figure 10.3 — Total wealth composition across a career *
 
 An older worker approaching retirement has little future labor income; their human capital has been largely converted into financial assets over the course of a career. Their financial portfolio needs to start looking more balanced because their total wealth — not just their financial portfolio — has shifted.
 
@@ -149,7 +152,8 @@ The life-cycle path. This allocation isn't permanent. As Maya ages, her human ca
 | 58 | 50% | 40% | 10% |
 | 68 (retired) | 40% | 50% | 10% |
 
-<!-- → [CHART: Maya's glidepath — x-axis: age (28 to 68), y-axis: allocation percentage (0% to 100%); three stacked area bands: equity (top, declining), fixed income (middle, growing), cash (bottom, stable then growing); student should see equity declining smoothly as the bond-like human capital converts to financial assets over the career] -->
+![Maya's glidepath ](images/10-capital-allocation-and-diversification-fig-04.png)
+*Figure 10.4 — Maya's glidepath *
 
 This is the glidepath that target-date retirement funds implement. Target-date 2060 funds [verify] at major providers hold allocations broadly similar to Maya's 28-year-old portfolio. The convergence is reassuring — not because it proves anything, but because it suggests we haven't made an error that practitioners would immediately flag.
 
@@ -332,3 +336,44 @@ Who was John Larry Kelly Jr., and how does his 1956 derivation of the *Kelly cri
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 10.1 — Capital Allocation Line 
+
+Create a standalone D3 v7 HTML file for Figure Capital Allocation Line . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Capital Allocation Line — horizontal axis: volatility (0% to 16%), vertical axis: expected return (4% to 9%); straight line from (0%, 4.5%) through (9.5%, 7.0%) extending to (14.3%, 8.3%); mark and label the five key points from the table; shade the region above the line as unachievable; label the slope as "Sharpe ratio = 0.26"; student should see that every point on the line has the same risk-reward trade-off. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-capital-allocation-and-diversification-fig-01.html`
+
+---
+
+### Figure 10.2 — Optimal allocation y* vs
+
+Create a standalone D3 v7 HTML file for Figure Optimal allocation y* vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Optimal allocation y* vs. risk aversion A — x-axis: A from 1 to 10, y-axis: y* from 0% to 300%; hyperbolic curve showing y* = 0.025 / (A × 0.009); draw a horizontal dashed line at y*=100% labeled "fully invested" and another at y*=0% labeled "all cash"; shade the leverage zone above 100%; student should see how sensitive the optimal allocation is to small changes in A at low risk aversion. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-capital-allocation-and-diversification-fig-02.html`
+
+---
+
+### Figure 10.3 — Total wealth composition across a career 
+
+Create a standalone D3 v7 HTML file for Figure Total wealth composition across a career . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Total wealth composition across a career — two stacked bar charts side by side; left bar labeled "Age 28": large segment for human capital (bond-like, ~$2.5M PV), small segment for financial portfolio ($100K); right bar labeled "Age 60": small segment for human capital (~$300K PV), large segment for financial portfolio (~$1.5M); arrows below both bars showing the implied optimal financial portfolio equity allocation (high at 28, moderate at 60); caption: "The financial portfolio should counterbalance human capital — which is why equity allocation rationally declines with age". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono 
+
+> Reference implementation: `d3/10-capital-allocation-and-diversification-fig-03.html`
+
+---
+
+### Figure 10.4 — Maya's glidepath 
+
+Create a standalone D3 v7 HTML file for Figure Maya's glidepath . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Maya's glidepath — x-axis: age (28 to 68), y-axis: allocation percentage (0% to 100%); three stacked area bands: equity (top, declining), fixed income (middle, growing), cash (bottom, stable then growing); student should see equity declining smoothly as the bond-like human capital converts to financial assets over the career. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-capital-allocation-and-diversification-fig-04.html`
