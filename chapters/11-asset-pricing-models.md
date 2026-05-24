@@ -266,29 +266,3 @@ Who was John Lintner, and how does his independent 1965 derivation of the CAPM �
 - Add a constraint: "Answer as if you're writing the historical preface to a CAPM chapter"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 11.1 — Security market line 
-
-Create a standalone D3 v7 HTML file for Figure Security market line . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: security market line — x-axis is beta (0 to 2.5), y-axis is expected return; a straight line from (0, R_f) through (1, market return) with slope equal to the equity risk premium; points plotted for beta=0, 1.0, 1.5, and 2.0 with their corresponding expected returns labeled — student should see that beta is the only variable determining required return once R_f and the premium are fixed. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/11-asset-pricing-models-fig-01.html`
-
----
-
-### Figure 11.2 — Bar chart with three grouped bars 
-
-Create a standalone D3 v7 HTML file for Figure Bar chart with three grouped bars . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: bar chart with three grouped bars — one group per window (36-, 24-, 60-month) — each group shows CAPM expected return vs. actual return side by side, with the alpha gap shaded between them — student should see the alpha dwarfing the CAPM-predicted return in every window, and the variation in both beta and alpha across windows. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/11-asset-pricing-models-fig-02.html`

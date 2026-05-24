@@ -298,21 +298,3 @@ Who was Vinzenz Bronzin, and how does his 1908 *Theorie der Prämiengeschäfte* 
 - Add a constraint: "Answer as if you're writing a footnote in a chapter on option pricing"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 7.1 — Payoff diagrams 
-
-Create a standalone D3 v7 HTML file for Figure Payoff diagrams . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Payoff diagrams — three panels on one axis; panel 1: long stock (straight line, slope 1); panel 2: put option payoff — flat at zero above strike K, rising linearly below K (hockey stick pointing upper-left); panel 3: long stock plus long put combined — slope-1 line above K, flat floor below K; label the kink at K in all three panels; caption: "The put introduces a kink that cannot be constructed from straight lines alone". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/07-options-and-derivatives-fig-01.html`

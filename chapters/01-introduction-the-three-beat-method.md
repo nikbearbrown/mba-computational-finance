@@ -308,29 +308,3 @@ Who was Lillian Gilbreth, and how does her industrial-engineering practice of br
 - Add a constraint: "Answer as if you're writing the introduction to a chapter on workflow discipline for analytical AI work"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 1.1 — Arithmetic vs
-
-Create a standalone D3 v7 HTML file for Figure Arithmetic vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Arithmetic vs. geometric return divergence — show two hypothetical paths with identical start/end points but different volatility; label arithmetic mean, geometric mean, and variance drag (σ²/2) on each; headline: "Same endpoint, different story depending on how you annualize". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/01-introduction-the-three-beat-method-fig-01.html`
-
----
-
-### Figure 1.2 — Two-column comparison 
-
-Create a standalone D3 v7 HTML file for Figure Two-column comparison . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two-column comparison — "Spreadsheet era" vs. "Conversational AI era"; map each Beat to the spreadsheet discipline it replaces: Named ranges → Specification, Formula trace → Editorial read, Scenario tab → Independent verification; visual metaphor: the old guardrails are gone, the new ones are habits. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/01-introduction-the-three-beat-method-fig-02.html`

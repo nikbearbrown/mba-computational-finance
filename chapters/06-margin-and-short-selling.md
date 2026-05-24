@@ -275,29 +275,3 @@ Who was Hyman Minsky, and how does his *financial instability hypothesis* — th
 - Add a constraint: "Answer as if you're writing the warning section of a margin-lending policy"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 6.1 — P&L curve for the Tesla short, plotting return
-
-Create a standalone D3 v7 HTML file for Figure P&L curve for the Tesla short, plotting return. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: P&L curve for the Tesla short, plotting return on initial margin (y-axis) against Tesla price (x-axis). Curve slopes downward right — gains accumulate as the stock falls, losses accumulate as it rises. Vertical reference lines at $370 (entry), $427 (margin call), and a lower price showing maximum gain territory. A horizontal dashed line at +200% marks the theoretical maximum. Overlay the mirror-image long P&L curve on the same axes — bounded below at −100%, extending upward without limit. The contrast makes the asymmetry visible.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/06-margin-and-short-selling-fig-01.html`
-
----
-
-### Figure 6.2 — Timeline of the GameStop squeeze, January 4–28, 2021
-
-Create a standalone D3 v7 HTML file for Figure Timeline of the GameStop squeeze, January 4–28, 2021. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Timeline of the GameStop squeeze, January 4–28, 2021 — x-axis is date, y-axis is share price. Annotate key moments: short interest peak, first Reddit surge, Robinhood trading halt, price peak above $480, subsequent collapse. A second panel shows short interest percentage over the same period, declining as the squeeze forced covering. The visual point: the squeeze and the covering are the same event seen from two sides.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/06-margin-and-short-selling-fig-02.html`

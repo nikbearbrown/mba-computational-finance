@@ -325,29 +325,3 @@ Who was John Burr Williams, and how does his 1938 dissertation *The Theory of In
 - Add a constraint: "Answer as if you're writing the historical foundation paragraph for a DCF chapter"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 5.1 — Stacked bar decomposing a 12% discount rate into
-
-Create a standalone D3 v7 HTML file for Figure Stacked bar decomposing a 12% discount rate into. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: stacked bar decomposing a 12% discount rate into its three components — risk-free rate (~4%), inflation (~2%), risk premium (~6%) — labeled with brief descriptions of what each compensates for. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/05-time-value-of-money-and-discounted-cash-flows-fig-01.html`
-
----
-
-### Figure 5.2 — Stacked bar chart showing the two components of
-
-Create a standalone D3 v7 HTML file for Figure Stacked bar chart showing the two components of. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: stacked bar chart showing the two components of the $1,766,000 enterprise value — present value of 10-year explicit cash flows (~$1,074,000) and present value of terminal value (~$692,000) — student should see how much of the total valuation rests on the terminal value assumption. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/05-time-value-of-money-and-discounted-cash-flows-fig-02.html`

@@ -346,21 +346,3 @@ Who was Hetty Green, and how does her late-nineteenth-century investment practic
 - Add a constraint: "Answer as if you're writing the case for why integrated decision-making is itself a discipline, not an aggregation of separate ones"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 13.1 — Layer 2 summary 
-
-Create a standalone D3 v7 HTML file for Figure Layer 2 summary . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two-panel Layer 2 summary — left panel: Sharpe ratio vs. NVDA weight (0% to 20%), showing the plateau between 15% and 20% — annotate the inflection point; right panel: 90th-percentile worst-month outcome vs. NVDA weight, showing linear deterioration with no plateau — annotate the −8% baseline and the −19% endpoint; caption: "The Sharpe benefit plateaus at 15%; the downside risk does not — the gap between the two panels is where the sizing decision lives". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/13-putting-it-all-together-the-investment-decision-capstone-fig-01.html`
