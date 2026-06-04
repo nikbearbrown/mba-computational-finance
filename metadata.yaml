@@ -1,7 +1,7 @@
 ---
 title: "Computational Finance with AI"
 subtitle: "AI+1, Hands on. Domain specific. No generic prompts."
-author: "Humanitarians AI"
+author: "Humanitarians AI Incorporated"
 date: 2026
 lang: en-US
 description: |
@@ -13,8 +13,8 @@ description: |
   longer needed. Built around the three-beat method (idea → execute →
   verify) and Maya's Memo, an integrated investment recommendation that the
   reader builds across thirteen chapters.
-rights: "Copyright © 2026 Humanitarians AI"
-publisher: "Humanitarians AI"
+rights: "Copyright © 2026 Humanitarians AI Incorporated. All rights reserved."
+publisher: "Humanitarians AI Incorporated, a 501(c)(3) nonprofit organization"
 subject:
   - Finance — Practical
   - Investment Analysis
@@ -34,4 +34,12 @@ keywords:
 ibooks:
   version: 1.0.0
 toc-title: Contents
+subject_domain: ""
+tone: ""
+audience: ""
+chapter_titles: []
+avoid: []
+palette_preference: ""
+series_name: "AI+1"
+thumbnail_priority: "title and central icon"
 ...

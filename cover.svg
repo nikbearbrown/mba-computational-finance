@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <g id="background"><rect x="0" y="0" width="1600" height="2560" fill="#F5C518"/></g>
+  <g id="symbol-fragments" transform="rotate(2, 800, 850)">
+    <polygon points="183,168 253,168 819,1432 748,1432" fill="#111111"/>
+    <polygon points="198,1200 294,1200 281,634 185,634" fill="#111111"/>
+    <polygon points="293,1399 381,1399 293,1476 205,1476" fill="#D62B2B"/>
+    <polygon points="557,714 630,714 779,1324 706,1324" fill="#111111"/>
+    <polygon points="223,1446 292,1446 351,1403 282,1403" fill="#111111"/>
+    <polygon points="595,1256 668,1256 289,493 216,493" fill="#111111"/>
+    <polygon points="222,189 312,189 619,813 529,813" fill="#111111"/>
+    <polygon points="251,1470 333,1470 622,1215 540,1215" fill="#111111"/>
+  </g>
+  <g id="title-letterforms">
+    <text x="120" y="1350" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#111111" textLength="1300" lengthAdjust="spacingAndGlyphs">COMPUTATIONAL</text>
+    <text x="120" y="1608" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#D62B2B" textLength="1300" lengthAdjust="spacingAndGlyphs">FINANCE</text>
+    <text x="120" y="1866" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#111111">WITH</text>
+    <text x="120" y="2124" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#111111">AI</text>
+  </g>
+</svg>

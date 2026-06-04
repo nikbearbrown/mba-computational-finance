@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">NVDA monthly returns vs. fitted normal</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Fat tails on both ends; bulk shifted slightly right of zero. The normal underfits the extremes.</text>
+<line x1="80" y1="340" x2="620" y2="340" stroke="#1a1714" stroke-width="1"/>
+<line x1="80" y1="340" x2="80" y2="100" stroke="#1a1714" stroke-width="1"/>
+<rect x="82.0" y="324.2285714285714" width="32.0" height="15.771428571428572" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="98.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">-30%</text>
+<rect x="118.0" y="340.0" width="32.0" height="0.0" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<rect x="154.0" y="308.45714285714286" width="32.0" height="31.542857142857144" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="170.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">-20%</text>
+<rect x="190.0" y="292.6857142857143" width="32.0" height="47.31428571428571" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<rect x="226.0" y="261.1428571428571" width="32.0" height="78.85714285714286" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="242.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">-10%</text>
+<rect x="262.0" y="213.82857142857142" width="32.0" height="126.17142857142858" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<rect x="298.0" y="150.74285714285716" width="32.0" height="189.25714285714284" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="314.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">0%</text>
+<rect x="334.0" y="119.19999999999999" width="32.0" height="220.8" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<rect x="370.0" y="166.51428571428573" width="32.0" height="173.48571428571427" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="386.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">10%</text>
+<rect x="406.0" y="229.6" width="32.0" height="110.4" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<rect x="442.0" y="276.9142857142857" width="32.0" height="63.08571428571429" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="458.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">20%</text>
+<rect x="478.0" y="292.6857142857143" width="32.0" height="47.31428571428571" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<rect x="514.0" y="324.2285714285714" width="32.0" height="15.771428571428572" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="530.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">30%</text>
+<rect x="550.0" y="324.2285714285714" width="32.0" height="15.771428571428572" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<rect x="586.0" y="324.2285714285714" width="32.0" height="15.771428571428572" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="602.0" y="356" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">40%</text>
+<polyline points="80.0,335.619086280443 84.5,334.9670448608984 89.0,334.23239270425483 93.5,333.4070076856417 98.0,332.48232199460045 102.5,331.4493499063525 107.0,330.29872505595165 111.5,329.0207479505532 116.0,327.60544436622325 120.5,326.0426351609762 125.0,324.32201789428814 129.5,322.43326047501535 134.0,320.3661068649675 138.5,318.110494645627 143.0,315.6566840127697 147.5,312.99539750100433 152.0,310.1179694613559 156.5,307.0165040247077 161.0,303.6840399877642 165.5,300.11472076254825 170.0,296.3039672423379 174.5,292.24865116396086 179.0,287.94726629646533 183.5,283.4000945675517 188.0,278.60936405993476 192.5,273.57939567791357 197.0,268.31673520727634 201.5,262.8302674758938 206.0,257.131309373611 210.5,251.2336786127002 215.0,245.1537353070688 219.5,238.91039372082756 224.0,232.52510188403826 228.5,226.02178719283438 233.0,219.42676659795217 237.5,212.76862053326658 242.0,206.07803033545053 246.5,199.38757954671914 251.0,192.73152016244882 255.5,186.1455055704755 260.0,179.66629261412908 264.5,173.33141588082714 269.0,167.17883795619554 273.5,161.24657997413058 278.0,155.57233732039109 282.5,150.19308579655868 287.0,145.14468390932134 291.5,140.4614772055983 296.0,136.17591071783082 300.5,132.31815560915322 305.0,128.91575601125155 309.5,125.99330182762321 314.0,123.57213293386843 318.5,121.67007974983969 323.0,120.30124459425568 327.5,119.4758275718525 332.0,119.19999999999993 336.5,119.4758275718525 341.0,120.30124459425568 345.5,121.67007974983969 350.0,123.57213293386843 354.5,125.99330182762321 359.0,128.91575601125155 363.5,132.31815560915322 368.0,136.17591071783082 372.5,140.4614772055983 377.0,145.14468390932134 381.5,150.19308579655868 386.0,155.57233732039109 390.5,161.24657997413058 395.0,167.17883795619554 399.5,173.33141588082714 404.0,179.66629261412908 408.5,186.1455055704755 413.0,192.73152016244882 417.5,199.38757954671914 422.0,206.07803033545053 426.5,212.76862053326658 431.0,219.42676659795217 435.5,226.02178719283438 440.0,232.52510188403826 444.5,238.91039372082756 449.0,245.1537353070688 453.5,251.2336786127002 458.0,257.131309373611 462.5,262.8302674758938 467.0,268.31673520727634 471.5,273.57939567791357 476.0,278.60936405993476 480.5,283.4000945675517 485.0,287.94726629646533 489.5,292.24865116396086 494.0,296.3039672423379 498.5,300.11472076254825 503.0,303.6840399877642 507.5,307.0165040247077 512.0,310.1179694613559 516.5,312.99539750100433 521.0,315.6566840127697 525.5,318.110494645627 530.0,320.3661068649675 534.5,322.43326047501535 539.0,324.32201789428814 543.5,326.0426351609762 548.0,327.60544436622325 552.5,329.0207479505532 557.0,330.29872505595165 561.5,331.4493499063525 566.0,332.48232199460045 570.5,333.4070076856417 575.0,334.23239270425483 579.5,334.9670448608984 584.0,335.619086280443 588.5,336.19617433439095 593.0,336.7054904359498 597.5,337.1537358370045 602.0,337.5471335643561 606.5,337.8914356471795 611.0,338.1919348160262 615.5,338.45347989342076 620.0,338.6804941447827" fill="none" stroke="#1a1714" stroke-width="1.5"/>
+<text x="180" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">left tail —</text>
+<text x="180" y="294" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">extreme losses</text>
+<text x="180" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">above normal</text>
+<text x="540" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">right tail —</text>
+<text x="540" y="294" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">extreme gains</text>
+<text x="540" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">above normal</text>
+<text x="40" y="220.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle" transform="rotate(-90 40 220.0)">Frequency (months)</text>
+<text x="350.0" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Monthly return</text>
+<rect x="490" y="110" width="14" height="10" fill="#f5f2ee" stroke="#1a1714" stroke-width="0.5"/>
+<text x="510" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">observed</text>
+<line x1="490" y1="138" x2="504" y2="138" stroke="#1a1714" stroke-width="1.5"/>
+<text x="510" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">fitted normal</text>
+</svg>
