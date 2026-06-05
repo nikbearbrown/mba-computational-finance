@@ -1,5 +1,12 @@
 # Chapter 2 — Returns and Risk Measurement
 
+
+## TL;DR
+
+- The word "return" is doing two jobs at once, and the math for those two jobs is different.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The word "return" is doing two jobs at once, and the math for those two jobs is different.*
 
 ---
@@ -275,12 +282,15 @@ Save as a section that will eventually go in the full memo. Be specific about th
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Louis Bachelier** was deriving the mathematics of random walks for the Paris Bourse in 1900 — five years before Einstein used the same equations to describe Brownian motion decades before most people had heard of returns, variance, and the formal measurement of risk. Here's a prompt to find out more — and then make it better.
 
 ![Louis Bachelier, c. 1900. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/louis-bachelier.jpg)
 *Louis Bachelier, c. 1900. AI-generated portrait based on a public domain photograph.*
+
+![Louis Bachelier](../images/louis-bachelier-9wi.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
 

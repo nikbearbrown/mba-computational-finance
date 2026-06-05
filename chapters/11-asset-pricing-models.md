@@ -1,5 +1,12 @@
 # Chapter 11 — Asset Pricing Models
 
+
+## TL;DR
+
+- To say a stock was exceptional, you need a baseline.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *To say a stock was exceptional, you need a baseline. Without one, "exceptional" and "lucky" are indistinguishable.*
 
 ---
@@ -74,7 +81,8 @@ Let's actually run the numbers.
 
 Three regressions: 36-month, 24-month, and 60-month windows, all using monthly returns against the S&P 500. The results, which should be verified against primary data, come out approximately as follows.
 
-[FIGURE: Three regression scatter plots of NVDA monthly returns vs. S&P 500 monthly returns, one per window, each showing the regression line with its slope labeled.]
+![Three regression scatter plots of NVDA monthly returns vs. S&P 500 monthly returns, one per window, each showing the regression line...](images/11-asset-pricing-models-fig-01.png)
+*Figure 11.1 — Three regression scatter plots of NVDA monthly returns vs*
 
 | Window | Beta | 95% CI | R² | CAPM Expected Return | Actual Return | Alpha |
 |--------|-----:|--------|---:|---------------------:|--------------:|------:|
@@ -244,8 +252,7 @@ Run with `python analysis/11-asset-pricing.py --ticker [TICKER]`.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **John Lintner** was co-developing the Capital Asset Pricing Model in 1965 — independently of Sharpe, with a slightly different derivation that arrived at the same equilibrium result and shaped the way institutional investors would price risk for the next half-century decades before most people had heard of the CAPM, beta, and the multi-factor extensions that followed. Here's a prompt to find out more — and then make it better.
 
 ![John Lintner, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/john-lintner.jpg)
@@ -266,3 +273,21 @@ Who was John Lintner, and how does his independent 1965 derivation of the CAPM �
 - Add a constraint: "Answer as if you're writing the historical preface to a CAPM chapter"
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 11.1 — Three regression scatter plots of NVDA monthly returns vs
+
+Create a standalone D3 v7 HTML figure for "Three regression scatter plots of NVDA monthly returns vs". Use a horizontal bar chart with 5 labeled categories with approximate values from 0 to 100. Marks: bars or rectangular panels, direct labels, and concise value labels. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/11-asset-pricing-models-fig-01.html`

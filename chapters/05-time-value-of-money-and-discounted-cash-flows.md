@@ -1,5 +1,12 @@
 # Chapter 5 — Time Value and Discounted Cash Flows
 
+
+## TL;DR
+
+- A dollar today is worth more than a dollar tomorrow — and the discipline is making that preference precise.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A dollar today is worth more than a dollar tomorrow — and the discipline is making that preference precise.*
 
 ---
@@ -303,8 +310,7 @@ Produce `05-dcf.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **John Burr Williams** was publishing *The Theory of Investment Value* in 1938 — the foundational case that an asset's value is the present value of its future cash flows, formalized into the discount-rate apparatus the chapter teaches decades before most people had heard of the time value of money and discounted-cash-flow valuation. Here's a prompt to find out more — and then make it better.
 
 ![John Burr Williams, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/john-burr-williams.jpg)

@@ -1,4 +1,11 @@
 # Chapter 7 — Options
+
+## TL;DR
+
+- A price that doesn't depend on your forecast of the future — that is the strange thing.
+- The chapter moves through Jin's Problem, The Kink, Why the Price Is Not an Opinion, From Two Branches to the Formula, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A price that doesn't depend on your forecast of the future — that is the strange thing.*
 
 There is a strange thing that happens when you look at stock price graphs long enough. After a while you stop seeing the prices and start seeing shapes. Not shapes in the mystical chart-reading sense — I don't mean head-and-shoulders patterns or whatever the technical analysts are selling. I mean something more basic. You notice that wealth, when you own a stock, moves in a straight line with the stock. The slope is one. If the stock goes up a dollar, you go up a dollar. If it goes down a dollar, you go down a dollar. A straight line, slope one, through the origin of whatever coordinate system you draw.
@@ -276,8 +283,7 @@ Produce `07-option-overlay.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Vinzenz Bronzin** was deriving option-pricing formulas in 1908 — sixty-five years before Black, Scholes, and Merton — in a German-language textbook that was rediscovered in 2002 and re-evaluated as parallel to the Black-Scholes apparatus decades before most people had heard of options pricing, the binomial model, and the Black-Scholes framework. Here's a prompt to find out more — and then make it better.
 
 ![Vinzenz Bronzin, c. 1900. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/vinzenz-bronzin.jpg)

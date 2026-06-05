@@ -1,4 +1,11 @@
 # Chapter 6 — Margin and Short Selling
+
+## TL;DR
+
+- The borrowed thing doesn't move — and that's what makes it dangerous.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The borrowed thing doesn't move — and that's what makes it dangerous.*
 
 Almost every financial blow-up you have heard of has leverage somewhere in its causal chain. Long-Term Capital Management. Lehman Brothers. Bill Hwang's Archegos. The Robinhood GameStop weekend. The instruments are always different. The mechanism is always the same.
@@ -253,8 +260,7 @@ Produce `06-leverage.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Hyman Minsky** was developing the *financial instability hypothesis* — the argument that stable financial conditions actively produce the leverage cycles that destabilize them decades before most people had heard of leverage, margin loans, and the mechanism by which short positions and borrowed money amplify both returns and ruin. Here's a prompt to find out more — and then make it better.
 
 ![Hyman Minsky, c. 1980s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/hyman-minsky.jpg)

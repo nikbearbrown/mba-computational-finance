@@ -1,4 +1,11 @@
 # Chapter 10 — How Much Should You Risk?
+
+## TL;DR
+
+- Most investors optimize the wrong decision.
+- The chapter moves through The Setup, The Capital Allocation Line, Where on the Line Should You Stand?, The Physics of the Problem: Human Capital, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Most investors optimize the wrong decision.*
 
 There is a question hiding inside every investment decision that most people never ask directly. They ask: *which* stocks? *Which* funds? *Which* allocation between this sector and that one? But underneath all of that is a prior question, simpler and more important:
@@ -313,8 +320,7 @@ The script runs with `python analysis/10-allocation.py --gamma [VALUE]`.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **John Larry Kelly Jr.** was deriving the *Kelly criterion* in 1956 at Bell Labs — the formal rule for what fraction of capital to bet given a known edge, applied first to information theory and signal processing before it reached finance decades before most people had heard of capital allocation, the fraction of wealth at risk, and the math of *how much to bet*. Here's a prompt to find out more — and then make it better.
 
 ![John Larry Kelly Jr., c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/john-larry-kelly-jr.jpg)

@@ -1,4 +1,11 @@
 # Chapter 1 — The Three-Beat Method
+
+## TL;DR
+
+- The spreadsheet used to enforce the discipline.
+- The chapter moves through The Problem Maya Has on a Friday Afternoon, Beat One: Write Down What You Want Before You Ask for It, Beat Two: Read the Output Like an Editor, Not a Reader, Beat Three: Verify by Independent Means, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The spreadsheet used to enforce the discipline. Now you have to.*
 
 I want to start with a confession about how I first used language models for analytical work.
@@ -286,8 +293,7 @@ Format the output as a markdown document I can save as `01-position-brief.md`. B
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Lillian Gilbreth** was decomposing every white-collar task into a sequence of named, observable, repeatable motions decades before most people had heard of the workflow discipline — idea, execute, verify. Here's a prompt to find out more — and then make it better.
 
 ![Lillian Gilbreth, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/lillian-gilbreth.jpg)

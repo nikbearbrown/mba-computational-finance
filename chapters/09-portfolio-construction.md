@@ -1,4 +1,11 @@
 # Chapter 9 — Portfolio Construction
+
+## TL;DR
+
+- The optimizer finds the frontier perfectly — and then misses the crisis entirely.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The optimizer finds the frontier perfectly — and then misses the crisis entirely.*
 
 In 1952, a twenty-four-year-old graduate student named Harry Markowitz published a fourteen-page paper in *The Journal of Finance* that contained one genuinely new idea. The idea was not complicated. It was, in retrospect, almost obvious. And yet nobody had written it down carefully before, and its consequences took the entire investment profession about thirty years to absorb.
@@ -268,8 +275,7 @@ The script should run with `python analysis/09-frontier.py --ticker [TICKER] --p
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **James Tobin** was proving the *separation theorem* in 1958 — the result that any investor's optimal portfolio can be built from just two ingredients: the risk-free asset and the single tangency portfolio, regardless of risk preferences decades before most people had heard of the efficient frontier and the construction of an optimal portfolio. Here's a prompt to find out more — and then make it better.
 
 ![James Tobin, c. 1970s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/james-tobin.jpg)

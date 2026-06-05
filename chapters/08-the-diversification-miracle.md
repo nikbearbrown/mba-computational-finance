@@ -1,5 +1,12 @@
 # Chapter 8 — The Diversification Miracle
 
+
+## TL;DR
+
+- The variance of the average is less than the average of the variances — and that one sentence restructures every investment decision you will ever make.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The variance of the average is less than the average of the variances — and that one sentence restructures every investment decision you will ever make.*
 
 ---
@@ -280,8 +287,7 @@ The script should run with `python analysis/08-diversification.py --ticker [TICK
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **A. D. Roy** was publishing *Safety First and the Holding of Assets* in 1952 — the same year as Markowitz, with an alternative diversification framework built around minimizing the probability of a disastrous outcome rather than optimizing the variance trade-off decades before most people had heard of diversification, covariance, and the way correlated risks combine in a portfolio. Here's a prompt to find out more — and then make it better.
 
 ![A. D. Roy, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/a-d-roy.jpg)

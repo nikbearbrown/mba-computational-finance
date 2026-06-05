@@ -1,4 +1,11 @@
 # Chapter 4 — Funds and ETFs
+
+## TL;DR
+
+- The math settled the question decades ago.
+- The chapter moves through The Only Free Lunch, A Specific Problem, Three Ways to Pool Money, What Ownership Costs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The math settled the question decades ago. The retail world is still catching up.*
 
 Let me offer you two bets.
@@ -307,8 +314,7 @@ Produce `04-fund-vs-direct.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Sylvia Porter** was writing personal-finance journalism for ordinary investors from 1935 onward — at a time when funds and indexed exposure to equities were treated as products for the wealthy alone decades before most people had heard of mutual funds, ETFs, and how ordinary investors get diversified equity exposure. Here's a prompt to find out more — and then make it better.
 
 ![Sylvia Porter, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/sylvia-porter.jpg)

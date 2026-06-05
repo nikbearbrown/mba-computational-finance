@@ -1,4 +1,11 @@
 # Chapter 13 — The Whole Thing at Once
+
+## TL;DR
+
+- The pieces snap into a structure — if you remember to hold all five layers at once.
+- The chapter moves through The Question, The Shape of the Answer, Layer 1: NVDA as an Asset, Layer 2: What NVDA Does to the Portfolio, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The pieces snap into a structure — if you remember to hold all five layers at once.*
 
 There is a moment in physics education that Feynman described as the most important in a student's development. It is the moment when you stop treating each piece of knowledge as a separate thing stored in a separate drawer, and you realize that all the drawers are connected — that the principle you learned in one chapter is the same principle, in a different guise, as the one three chapters later. The pieces snap into a structure. What looked like a collection of techniques reveals itself as a single argument.
@@ -324,12 +331,15 @@ In **Cowork**, assemble the final memo as `report/13-final-memo.md`:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Hetty Green** was running an integrated investment practice from the 1880s through the 1910s — moving across bonds, equities, distressed debt, and real estate with a discipline that anticipated modern integrated portfolio analysis by half a century decades before most people had heard of integrated investment decision-making across all the chapter's tools. Here's a prompt to find out more — and then make it better.
 
 ![Hetty Green, c. 1900. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/hetty-green.jpg)
 *Hetty Green, c. 1900. AI-generated portrait based on a public domain photograph.*
+
+![Hetty Green](../images/hetty-green-77n.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
 

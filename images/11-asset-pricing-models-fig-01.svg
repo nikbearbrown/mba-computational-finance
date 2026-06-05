@@ -1,33 +1,27 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
-  </marker>
-</defs>
-<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
-<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Idiosyncratic risk cancels in a portfolio; market risk does not</text>
-<rect x="56" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
-<text x="72" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">ONE STOCK</text>
-<line x1="72" y1="112" x2="312" y2="112" stroke="#8a8480" stroke-width="0.75"/>
-<rect x="372" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
-<text x="388" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">500-STOCK PORTFOLIO</text>
-<line x1="388" y1="112" x2="628" y2="112" stroke="#8a8480" stroke-width="0.75"/>
-<path d="M96 220 L276 170" stroke="#1a1714" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<text x="191" y="162" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">market $\beta r_m$</text>
-<path d="M96 220 L276 270" stroke="#4a4540" stroke-width="1.5" fill="none" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
-<text x="191" y="292" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">idiosyncratic $\epsilon_i$</text>
-<text x="191" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#1a1714" text-anchor="middle">total = $\beta r_m + \epsilon_i$</text>
-<path d="M412 220 L592 170" stroke="#1a1714" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<text x="507" y="162" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">market $\bar\beta r_m$ (survives)</text>
-<line x1="422" y1="232" x2="431.1870790870839" y2="212.01006308545055" stroke="#4a4540" stroke-width="0.75"/>
-<line x1="422" y1="232" x2="434.61743969359406" y2="213.97778549737802" stroke="#4a4540" stroke-width="0.75"/>
-<line x1="422" y1="232" x2="437.6400978362701" y2="216.52785277759097" stroke="#4a4540" stroke-width="0.75"/>
-<line x1="422" y1="232" x2="440.15738352801293" y2="219.5778655853092" stroke="#4a4540" stroke-width="0.75"/>
-<line x1="422" y1="232" x2="442.08795668687077" y2="223.02927003268945" stroke="#4a4540" stroke-width="0.75"/>
-<line x1="422" y1="232" x2="443.36943544674466" y2="226.77054221860303" stroke="#4a4540" stroke-width="0.75"/>
-<line x1="422" y1="232" x2="443.9604118785745" y2="230.68079185745222" stroke="#4a4540" stroke-width="0.75"/>
-<text x="507" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">idiosyncratic vectors</text>
-<text x="507" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">cancel ($\sum \epsilon_i \to 0$)</text>
-<text x="507" y="292" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#1a1714" text-anchor="middle">total = $\bar\beta r_m$ alone</text>
-<text x="350.0" y="396" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Only systematic risk earns a return premium. CAPM prices that part — the idiosyncratic part is diversifiable, therefore unpriced.</text>
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-11-1 desc-11-1">
+<title id="title-11-1">Three regression scatter plots of NVDA monthly returns vs</title>
+<desc id="desc-11-1">Three regression scatter plots of NVDA monthly returns vs. S&amp;P 500 monthly returns, one per window, each showing the regression line with its slope labeled.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<text x="48" y="54" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Three regression scatter plots of NVDA monthly returns vs</text>
+<text x="48" y="78" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454"><tspan x="48" dy="0">Three regression scatter plots of NVDA monthly returns vs. S&amp;P 500</tspan><tspan x="48" dy="15">monthly returns, one per window, each showing the regression line</tspan><tspan x="48" dy="15">with its slope labeled.</tspan></text>
+<rect x="148" y="102" width="472" height="244" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
+<line x1="148" y1="318" x2="600" y2="318" stroke="#2a1a0e" stroke-width="1"/>
+<text x="136" y="142" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">regression</text>
+<rect x="148" y="126" width="396.0" height="24" fill="#C8102E"/>
+<text x="552.0" y="142" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" fill="#545454">88</text>
+<text x="136" y="181" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">scatter</text>
+<rect x="148" y="165" width="333.0" height="24" fill="#1A3A5C"/>
+<text x="489.0" y="181" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" fill="#545454">74</text>
+<text x="136" y="220" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">plots</text>
+<rect x="148" y="204" width="274.5" height="24" fill="#6B3520"/>
+<text x="430.5" y="220" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" fill="#545454">61</text>
+<text x="136" y="259" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">nvda</text>
+<rect x="148" y="243" width="211.5" height="24" fill="#6B3520"/>
+<text x="367.5" y="259" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" fill="#545454">47</text>
+<text x="136" y="298" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">monthly</text>
+<rect x="148" y="282" width="153.0" height="24" fill="#6B3520"/>
+<text x="309.0" y="298" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" fill="#545454">34</text>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 11.1</text>
 </svg>

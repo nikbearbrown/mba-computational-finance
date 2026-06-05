@@ -1,4 +1,11 @@
 # Chapter 12 — Financial Statement Analysis
+
+## TL;DR
+
+- Three documents, one system — and the numbers only make sense when you read all of them.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Three documents, one system — and the numbers only make sense when you read all of them.*
 
 There is a thing that happens when you hand someone a hundred-and-seventy-six-page document and tell them to have an opinion on it in forty-eight hours. Most people flip to the summary, read the executive's letter, look at a few big numbers, and walk into the room hoping no one asks a follow-up question.
@@ -238,8 +245,7 @@ For a private business or a bond, adapt: the bond's covenant compliance schedule
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Luca Pacioli** was publishing *Summa de Arithmetica* in 1494 — including the first complete printed treatment of double-entry bookkeeping, the structural ancestor of every income statement, balance sheet, and cash-flow statement the chapter teaches decades before most people had heard of the three financial statements as one interconnected accounting system. Here's a prompt to find out more — and then make it better.
 
 ![Luca Pacioli, c. 1495. AI-generated portrait based on a public domain painting (Wikimedia Commons).](images/luca-pacioli.jpg)

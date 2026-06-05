@@ -1,5 +1,12 @@
 # Chapter 3 — Equity and Fixed Income
 
+
+## TL;DR
+
+- It is 4:17 on a Thursday afternoon and Maya is trying to leave the office.
+- The chapter moves through LLM Exercise — Chapter 3: Equity and Fixed Income.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 It is 4:17 on a Thursday afternoon and Maya is trying to leave the office. She has her bag on her shoulder. Her laptop is half-closed. And then the boss forwards the thread.
 
 The subject line says **Re: NVDA position**. The first message in the chain is from the CFO, who is the kind of person who writes "Sidebar" at the start of an email and means it.
@@ -206,8 +213,7 @@ Produce `03-claim-framing.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Frederick Macaulay** was introducing the bond-duration concept in 1938 — the single number that makes interest-rate risk on a fixed-income security legible decades before most people had heard of bond pricing, yield-to-maturity, and the structure of interest-rate risk. Here's a prompt to find out more — and then make it better.
 
 ![Frederick Macaulay, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/frederick-macaulay.jpg)

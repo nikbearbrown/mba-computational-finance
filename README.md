@@ -1,36 +1,41 @@
 # Computational Finance with AI
 
-**Publisher:** Humanitarians AI  
-**Edition:** 2026  
-**License:** CC BY 4.0 for text; AI+1 marks and cover design are trademarks of Humanitarians AI.
+AI+1, Hands on. Domain specific. No generic prompts.
 
-## Overview
+**Author:** Humanitarians AI Incorporated  
+**Publisher:** Humanitarians AI Incorporated, a 501(c)(3) nonprofit organization  
+**Copyright:** Copyright © 2026 Humanitarians AI Incorporated. All rights reserved.  
+**Edition:** 2026
 
-Computational Finance with AI is part of the AI+1 series from Humanitarians AI. The book asks what a Computational Finance with AI practitioner can do with AI while preserving the human judgment, accountability, and domain expertise that the tool cannot supply.
+## Summary
 
-The book's front matter explains the copyright, CC BY 4.0 license, distribution model, AI and errata disclosure, and the Humanitarians AI publishing context. The introduction frames the reader's path through the chapters: where AI helps, where it fails, and how to keep the boundary between execution and judgment visible.
+*Computational Finance with AI* is a structured textbook for readers who need a clear path through the subject rather than a loose collection of explanations. It begins with Chapter 1 — The Three-Beat Method, moves through 13 core chapters, and ends with Chapter 13 — The Whole Thing at Once.
+
+AI matters to *Computational Finance with AI* because the modern textbook is no longer only a static container. It is also part of a learning system: searchable, remixable, explainable, and increasingly connected to tools such as Medhavy. For Humanitarians AI books, the relevant question is not whether AI can replace the learner or the teacher. It cannot. The useful question is what AI can make easier to inspect: definitions, worked examples, misconceptions, practice sequences, alternate explanations, and the structure of an argument. This book treats AI as infrastructure for open, public-interest learning infrastructure. The chapters should still stand on their own as readable prose, but they are also designed to be legible to an intelligent textbook system.
 
 ## Table of Contents
 
-- [Causal Inference with Case Studies](chapters/00-preface-and-toc.md)
-- [Chapter 1 — The Three-Beat Method](chapters/01-introduction-the-three-beat-method.md)
-- [Chapter 2 — Returns and Risk Measurement](chapters/02-returns-and-risk-measurement.md)
-- [Chapter 3 — Equity and Fixed Income](chapters/03-equity-and-fixed-income.md)
-- [Chapter 4 — Funds and ETFs](chapters/04-funds-and-etfs.md)
-- [Chapter 5 — Time Value and Discounted Cash Flows](chapters/05-time-value-of-money-and-discounted-cash-flows.md)
-- [Chapter 6 — Margin and Short Selling](chapters/06-margin-and-short-selling.md)
-- [Chapter 7 — Options](chapters/07-options-and-derivatives.md)
-- [Chapter 8 — The Diversification Miracle](chapters/08-the-diversification-miracle.md)
-- [Chapter 9 — Portfolio Construction](chapters/09-portfolio-construction.md)
-- [Chapter 10 — How Much Should You Risk?](chapters/10-capital-allocation-and-diversification.md)
-- [Chapter 11 — Asset Pricing Models](chapters/11-asset-pricing-models.md)
-- [Chapter 12 — Financial Statement Analysis](chapters/12-financial-statement-analysis.md)
-- [Chapter 13 — The Whole Thing at Once](chapters/13-putting-it-all-together-the-investment-decision-capstone.md)
+- **Chapter 1: Chapter 1 — The Three-Beat Method.** - The spreadsheet used to enforce the discipline. - The chapter moves through The Problem Maya Has on a Friday Afternoon, Beat One: Write Down What You Want Before You Ask for It, Beat Two: Read the Output Like an Editor, Not...
+- **Chapter 2: Chapter 2 — Returns and Risk Measurement.** - The word "return" is doing two jobs at once, and the math for those two jobs is different. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces,...
+- **Chapter 3: Chapter 3 — Equity and Fixed Income.** - It is 4:17 on a Thursday afternoon and Maya is trying to leave the office. - The chapter moves through LLM Exercise — Chapter 3: Equity and Fixed Income. - Read it for the main argument, the vocabulary it introduces, and...
+- **Chapter 4: Chapter 4 — Funds and ETFs.** - The math settled the question decades ago. - The chapter moves through The Only Free Lunch, A Specific Problem, Three Ways to Pool Money, What Ownership Costs, and related ideas. - Read it for the main argument, the vocabulary it introduces,...
+- **Chapter 5: Chapter 5 — Time Value and Discounted Cash Flows.** - A dollar today is worth more than a dollar tomorrow — and the discipline is making that preference precise. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it...
+- **Chapter 6: Chapter 6 — Margin and Short Selling.** - The borrowed thing doesn't move — and that's what makes it dangerous. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks...
+- **Chapter 7: Chapter 7 — Options.** - A price that doesn't depend on your forecast of the future — that is the strange thing. - The chapter moves through Jin's Problem, The Kink, Why the Price Is Not an Opinion, From Two Branches to the Formula, and related...
+- **Chapter 8: Chapter 8 — The Diversification Miracle.** - The variance of the average is less than the average of the variances — and that one sentence restructures every investment decision you will ever make. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it...
+- **Chapter 9: Chapter 9 — Portfolio Construction.** - The optimizer finds the frontier perfectly — and then misses the crisis entirely. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment it...
+- **Chapter 10: Chapter 10 — How Much Should You Risk?.** - Most investors optimize the wrong decision. - The chapter moves through The Setup, The Capital Allocation Line, Where on the Line Should You Stand?, The Physics of the Problem: Human Capital, and related ideas. - Read it for the main argument,...
+- **Chapter 11: Chapter 11 — Asset Pricing Models.** - To say a stock was exceptional, you need a baseline. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to...
+- **Chapter 12: Chapter 12 — Financial Statement Analysis.** - Three documents, one system — and the numbers only make sense when you read all of them. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and...
+- **Chapter 13: Chapter 13 — The Whole Thing at Once.** - The pieces snap into a structure — if you remember to hold all five layers at once. - The chapter moves through The Question, The Shape of the Answer, Layer 1: NVDA as an Asset, Layer 2: What NVDA Does to...
 
-## Copyright and License
+## Files
 
-Copyright © 2026 Humanitarians AI. The text is licensed under CC BY 4.0. See [LICENSE.md](LICENSE.md) for full terms, including trademark restrictions for AI+1 marks and cover design.
+- `chapters/00-frontmatter.md` — title page, copyright, dedication, and preface
+- `chapters/00-introduction.md` — roadmap and book-level AI note
+- `chapters/99-back-matter.md` — acknowledgments, author note, references placeholder, and Medhavy note
+- `LICENSE.md` — rights and reuse terms
 
-## Errata
+## Medhavy
 
-Errata, corrections, and suspected mistakes may be submitted through [humanitarians.ai](https://www.humanitarians.ai/).
+This book is prepared for Kindle, online publication, and integration with Medhavy: https://www.medhavy.com/
